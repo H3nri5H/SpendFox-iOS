@@ -43,6 +43,7 @@ jobs:
           tar -xzf /tmp/spendfox-prototype.tar.gz
           rm -f .github/prototype.part*
           rm -f .github/workflows/bootstrap-prototype.yml
+          rm -f .github/workflows/ios.yml
 
       - name: Commit native prototype
         shell: bash
